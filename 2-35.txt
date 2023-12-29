@@ -1,12 +1,8 @@
-1-Start
-2-Input the three sides of the triangle as (a), (b), and (c)
-3-If ((a + b > c) ) and ((a + c > b) ) and ((b + c > a)) then
-4-If ( (a == b) ) and ( (b == c) ), then
-Output “Equilateral triangle.”
-5-Else if ((a == b) ) or ( (b == c) ) or ( (a == c) ), then
-Output “Isosceles triangle.”
-6-Else
-Output “Scalene triangle.”
-7-Else
-Output “The sides cannot form a triangle.”
-8-End
+1. شروع
+2. سه ضلع مثلث را بخوان و در a,b,c قرار بده
+3.اگرa^2=b^2+c^2 است به مرحله ی7 برو
+4.اگر b^2+a^2+c^2 است به مرحله ی7 برو
+5. اگر c^2+a^2+b^2 است به مرحله ی7 برو
+6.مثلث, قائم الزاویه نیست به مرحله ی 8 برو
+7.مثلث, قائم الزاویه است
+8.پایان
