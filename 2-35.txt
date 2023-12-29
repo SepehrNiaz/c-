@@ -1,0 +1,12 @@
+1-Start
+2-Input the three sides of the triangle as (a), (b), and (c)
+3-If ((a + b > c) ) and ((a + c > b) ) and ((b + c > a)) then
+4-If ( (a == b) ) and ( (b == c) ), then
+Output “Equilateral triangle.”
+5-Else if ((a == b) ) or ( (b == c) ) or ( (a == c) ), then
+Output “Isosceles triangle.”
+6-Else
+Output “Scalene triangle.”
+7-Else
+Output “The sides cannot form a triangle.”
+8-End
